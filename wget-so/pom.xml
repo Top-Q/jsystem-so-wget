@@ -41,7 +41,7 @@
 	</build>
 
 	<parent>
-		<groupId>org.jsystemtest.so</groupId>
+		<groupId>org.jsystemtest.systemobjects</groupId>
 		<artifactId>wget-parent</artifactId>
 		<version>1.0.00</version>
 		<relativePath>../wget-parent</relativePath>
