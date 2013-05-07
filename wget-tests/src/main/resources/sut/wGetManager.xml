@@ -1,0 +1,22 @@
+<sut>
+	<wgetManager>
+	<class>com.aqua.sysobj.wGet.WGetManager</class>
+	<!-- CLIENTS -->
+		<wGets index="0">
+			<class>com.aqua.sysobj.wGet.WGet</class>
+			<conn>
+				<class>com.aqua.sysobj.conn.ConnectivityManager</class>
+				<cli>
+					<class>com.aqua.sysobj.wGet.WGetCliConnection</class>
+					<host>2.1.1.1</host>
+					<protocol>ssh</protocol>
+					<user>root</user>
+					<password>radware</password>
+				</cli>
+			</conn>
+			<basic>
+				<class>com.aqua.sysobj.wGet.basic.WGetBasic</class>
+			</basic>
+		</wGets>
+	</wgetManager>
+</sut>
